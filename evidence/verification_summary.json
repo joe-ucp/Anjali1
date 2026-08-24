@@ -1,0 +1,387 @@
+{
+  "scope": "Published aggregate values and deterministic identifiability calculations; no new animal data",
+  "unit_identity": "1 micromol/L = 1 nmol/mL",
+  "primary_nominal_vehicle_reference_analysis": {
+    "comparison": "lead_high_aseo minus lead_olive_oil",
+    "rationale": "The reported lead-plus-olive-oil group is used as a nominal vehicle reference; causal matching is not assumed",
+    "tissues": {
+      "heart": {
+        "baseline_group": "lead_olive_oil",
+        "baseline_bulk_nitrite_nmol_per_ml": 2.24,
+        "high_aseo_bulk_nitrite_nmol_per_ml": 6.29,
+        "high_aseo_minus_baseline_nmol_per_ml": 4.05,
+        "sharp_eNOS_component_contrast_interval": [
+          -2.24,
+          6.29
+        ],
+        "sharp_iNOS_component_contrast_interval": [
+          -2.24,
+          6.29
+        ],
+        "positive_sign_min_treated_lower_over_baseline_upper": 0.35612082670906203,
+        "negative_sign_min_baseline_lower_over_treated_upper": 2.808035714285714
+      },
+      "kidney": {
+        "baseline_group": "lead_olive_oil",
+        "baseline_bulk_nitrite_nmol_per_ml": 1.43,
+        "high_aseo_bulk_nitrite_nmol_per_ml": 0.7162,
+        "high_aseo_minus_baseline_nmol_per_ml": -0.7138,
+        "sharp_eNOS_component_contrast_interval": [
+          -1.43,
+          0.7162
+        ],
+        "sharp_iNOS_component_contrast_interval": [
+          -1.43,
+          0.7162
+        ],
+        "positive_sign_min_treated_lower_over_baseline_upper": 1.9966489807316392,
+        "negative_sign_min_baseline_lower_over_treated_upper": 0.5008391608391608
+      }
+    },
+    "heart_aggregate_welch_approximation_from_reported_sem": {
+      "difference": 4.05,
+      "standard_error": 0.2433105012119288,
+      "welch_df": 5.277563608326907,
+      "ci_low": 3.4343160045039376,
+      "ci_high": 4.665683995496062
+    },
+    "witness_certificate": {
+      "checks": {
+        "partition_supporting": {
+          "heart": {
+            "nonnegative": true,
+            "strictly_positive": true,
+            "totals_exact": true,
+            "delta_eNOS_component": 6.090000000000001,
+            "delta_iNOS_component": -2.04
+          },
+          "kidney": {
+            "nonnegative": true,
+            "strictly_positive": true,
+            "totals_exact": true,
+            "delta_eNOS_component": 0.5162,
+            "delta_iNOS_component": -1.2299999999999998
+          }
+        },
+        "partition_reversing": {
+          "heart": {
+            "nonnegative": true,
+            "strictly_positive": true,
+            "totals_exact": true,
+            "delta_eNOS_component": -2.04,
+            "delta_iNOS_component": 6.090000000000001
+          },
+          "kidney": {
+            "nonnegative": true,
+            "strictly_positive": true,
+            "totals_exact": true,
+            "delta_eNOS_component": -1.2299999999999998,
+            "delta_iNOS_component": 0.5162
+          }
+        }
+      },
+      "claim_signs_reversed": true
+    },
+    "witnesses": {
+      "partition_supporting": {
+        "heart": {
+          "baseline": [
+            0.1,
+            2.14
+          ],
+          "treated": [
+            6.19,
+            0.1
+          ]
+        },
+        "kidney": {
+          "baseline": [
+            0.1,
+            1.3299999999999998
+          ],
+          "treated": [
+            0.6162,
+            0.1
+          ]
+        }
+      },
+      "partition_reversing": {
+        "heart": {
+          "baseline": [
+            2.14,
+            0.1
+          ],
+          "treated": [
+            0.1,
+            6.19
+          ]
+        },
+        "kidney": {
+          "baseline": [
+            1.3299999999999998,
+            0.1
+          ],
+          "treated": [
+            0.1,
+            0.6162
+          ]
+        }
+      }
+    }
+  },
+  "secondary_lead_alone_analysis": {
+    "comparison": "lead_high_aseo minus lead",
+    "rationale": "Retained as a prespecified secondary descriptive comparison; it is not nominal vehicle-referenced",
+    "tissues": {
+      "heart": {
+        "baseline_group": "lead",
+        "baseline_bulk_nitrite_nmol_per_ml": 1.38,
+        "high_aseo_bulk_nitrite_nmol_per_ml": 6.29,
+        "high_aseo_minus_baseline_nmol_per_ml": 4.91,
+        "sharp_eNOS_component_contrast_interval": [
+          -1.38,
+          6.29
+        ],
+        "sharp_iNOS_component_contrast_interval": [
+          -1.38,
+          6.29
+        ],
+        "positive_sign_min_treated_lower_over_baseline_upper": 0.21939586645468998,
+        "negative_sign_min_baseline_lower_over_treated_upper": 4.557971014492754
+      },
+      "kidney": {
+        "baseline_group": "lead",
+        "baseline_bulk_nitrite_nmol_per_ml": 2.022,
+        "high_aseo_bulk_nitrite_nmol_per_ml": 0.7162,
+        "high_aseo_minus_baseline_nmol_per_ml": -1.3057999999999998,
+        "sharp_eNOS_component_contrast_interval": [
+          -2.022,
+          0.7162
+        ],
+        "sharp_iNOS_component_contrast_interval": [
+          -2.022,
+          0.7162
+        ],
+        "positive_sign_min_treated_lower_over_baseline_upper": 2.823233733593968,
+        "negative_sign_min_baseline_lower_over_treated_upper": 0.35420375865479725
+      }
+    },
+    "heart_aggregate_welch_approximation_from_reported_sem": {
+      "difference": 4.91,
+      "standard_error": 0.25298221281347033,
+      "welch_df": 6.097560975609756,
+      "ci_low": 4.293367770100864,
+      "ci_high": 5.526632229899136
+    },
+    "witness_certificate": {
+      "checks": {
+        "partition_supporting": {
+          "heart": {
+            "nonnegative": true,
+            "strictly_positive": true,
+            "totals_exact": true,
+            "delta_eNOS_component": 6.090000000000001,
+            "delta_iNOS_component": -1.1799999999999997
+          },
+          "kidney": {
+            "nonnegative": true,
+            "strictly_positive": true,
+            "totals_exact": true,
+            "delta_eNOS_component": 0.5162,
+            "delta_iNOS_component": -1.8219999999999996
+          }
+        },
+        "partition_reversing": {
+          "heart": {
+            "nonnegative": true,
+            "strictly_positive": true,
+            "totals_exact": true,
+            "delta_eNOS_component": -1.1799999999999997,
+            "delta_iNOS_component": 6.090000000000001
+          },
+          "kidney": {
+            "nonnegative": true,
+            "strictly_positive": true,
+            "totals_exact": true,
+            "delta_eNOS_component": -1.8219999999999996,
+            "delta_iNOS_component": 0.5162
+          }
+        }
+      },
+      "claim_signs_reversed": true
+    },
+    "witnesses": {
+      "partition_supporting": {
+        "heart": {
+          "baseline": [
+            0.1,
+            1.2799999999999998
+          ],
+          "treated": [
+            6.19,
+            0.1
+          ]
+        },
+        "kidney": {
+          "baseline": [
+            0.1,
+            1.9219999999999997
+          ],
+          "treated": [
+            0.6162,
+            0.1
+          ]
+        }
+      },
+      "partition_reversing": {
+        "heart": {
+          "baseline": [
+            1.2799999999999998,
+            0.1
+          ],
+          "treated": [
+            0.1,
+            6.19
+          ]
+        },
+        "kidney": {
+          "baseline": [
+            1.9219999999999997,
+            0.1
+          ],
+          "treated": [
+            0.1,
+            0.6162
+          ]
+        }
+      }
+    }
+  },
+  "measurement_matrix_certificates": {
+    "bulk_nitrite_only": {
+      "matrix": [
+        [
+          1.0,
+          1.0
+        ]
+      ],
+      "rank": 1,
+      "singular_values": [
+        1.4142135623730951
+      ]
+    },
+    "bulk_plus_proportional_orthogonal_assay": {
+      "matrix": [
+        [
+          1.0,
+          1.0
+        ],
+        [
+          2.0,
+          2.0
+        ]
+      ],
+      "rank": 1,
+      "singular_values": [
+        3.16227766016838,
+        1.570092458683775e-16
+      ]
+    },
+    "bulk_plus_two_ideal_source_sensitive_rows": {
+      "matrix": [
+        [
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "rank": 2,
+      "singular_values": [
+        1.732050807568877,
+        1.0000000000000002
+      ]
+    }
+  },
+  "prospective_power_grid": [
+    {
+      "standardized_effect": 0.5,
+      "target_power": 0.8,
+      "alpha_two_sided": 0.05,
+      "n_per_group": 64
+    },
+    {
+      "standardized_effect": 0.5,
+      "target_power": 0.9,
+      "alpha_two_sided": 0.05,
+      "n_per_group": 86
+    },
+    {
+      "standardized_effect": 0.6,
+      "target_power": 0.8,
+      "alpha_two_sided": 0.05,
+      "n_per_group": 45
+    },
+    {
+      "standardized_effect": 0.6,
+      "target_power": 0.9,
+      "alpha_two_sided": 0.05,
+      "n_per_group": 60
+    },
+    {
+      "standardized_effect": 0.8,
+      "target_power": 0.8,
+      "alpha_two_sided": 0.05,
+      "n_per_group": 26
+    },
+    {
+      "standardized_effect": 0.8,
+      "target_power": 0.9,
+      "alpha_two_sided": 0.05,
+      "n_per_group": 34
+    },
+    {
+      "standardized_effect": 1.0,
+      "target_power": 0.8,
+      "alpha_two_sided": 0.05,
+      "n_per_group": 17
+    },
+    {
+      "standardized_effect": 1.0,
+      "target_power": 0.9,
+      "alpha_two_sided": 0.05,
+      "n_per_group": 23
+    },
+    {
+      "standardized_effect": 1.2,
+      "target_power": 0.8,
+      "alpha_two_sided": 0.05,
+      "n_per_group": 12
+    },
+    {
+      "standardized_effect": 1.2,
+      "target_power": 0.9,
+      "alpha_two_sided": 0.05,
+      "n_per_group": 16
+    },
+    {
+      "standardized_effect": 1.5,
+      "target_power": 0.8,
+      "alpha_two_sided": 0.05,
+      "n_per_group": 9
+    },
+    {
+      "standardized_effect": 1.5,
+      "target_power": 0.9,
+      "alpha_two_sided": 0.05,
+      "n_per_group": 11
+    }
+  ],
+  "power_grid_assumption": "Two-sided alpha 0.05, equal group sizes, independent Gaussian outcomes, standardized effect known"
+}

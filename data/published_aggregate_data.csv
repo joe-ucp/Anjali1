@@ -1,0 +1,13 @@
+study_id,tissue,group,mean_reported,sem_reported,n,reported_unit,mean_nmol_per_ml,sem_nmol_per_ml,doi,evidence_note
+Rajpoot_Sharma_2025,heart,control,10.43,0.14,6,nmol/mL,10.43,0.14,10.1016/j.toxrep.2025.101950,Table 4; mean plus or minus SEM
+Rajpoot_Sharma_2025,heart,lead,1.38,0.08,6,nmol/mL,1.38,0.08,10.1016/j.toxrep.2025.101950,Table 4; mean plus or minus SEM
+Rajpoot_Sharma_2025,heart,lead_low_aseo,1.82,0.10,6,nmol/mL,1.82,0.10,10.1016/j.toxrep.2025.101950,Table 4; mean plus or minus SEM
+Rajpoot_Sharma_2025,heart,lead_high_aseo,6.29,0.24,6,nmol/mL,6.29,0.24,10.1016/j.toxrep.2025.101950,Table 4; mean plus or minus SEM
+Rajpoot_Sharma_2025,heart,lead_silymarin,2.00,0.04,6,nmol/mL,2.00,0.04,10.1016/j.toxrep.2025.101950,Table 4; mean plus or minus SEM
+Rajpoot_Sharma_2025,heart,lead_olive_oil,2.24,0.04,6,nmol/mL,2.24,0.04,10.1016/j.toxrep.2025.101950,Table 4; mean plus or minus SEM
+Sharma_Sharma_2024,kidney,control,1.25,,6,micromol/L,1.25,,10.18311/ti/2024/v31i2/35881,Text and Figure 5; SEM shown graphically but not numerically reported
+Sharma_Sharma_2024,kidney,lead,2.022,,6,micromol/L,2.022,,10.18311/ti/2024/v31i2/35881,Text and Figure 5; SEM shown graphically but not numerically reported
+Sharma_Sharma_2024,kidney,lead_low_aseo,1.1216,,6,micromol/L,1.1216,,10.18311/ti/2024/v31i2/35881,Text and Figure 5; SEM shown graphically but not numerically reported
+Sharma_Sharma_2024,kidney,lead_high_aseo,0.7162,,6,micromol/L,0.7162,,10.18311/ti/2024/v31i2/35881,Text and Figure 5; SEM shown graphically but not numerically reported
+Sharma_Sharma_2024,kidney,lead_silymarin,0.6711,,6,micromol/L,0.6711,,10.18311/ti/2024/v31i2/35881,Text and Figure 5; SEM shown graphically but not numerically reported
+Sharma_Sharma_2024,kidney,lead_olive_oil,1.43,,6,micromol/L,1.43,,10.18311/ti/2024/v31i2/35881,Text and Figure 5; SEM shown graphically but not numerically reported

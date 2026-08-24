@@ -1,0 +1,22 @@
+# Python environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local manuscript build intermediates
+working/
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+
+# Third-party publication files are referenced, not redistributed
+sources/publications/*.pdf
+!sources/publications/README.md
+
+# OS/editor noise
+.DS_Store
+Thumbs.db

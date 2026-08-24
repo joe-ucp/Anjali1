@@ -1,0 +1,21 @@
+study_id,field,reported_value,source_location,audit_interpretation,affects_used_nitrite_values
+Rajpoot_Sharma_2025,reported_group_label_high,"Group IV (Lead Nitrate + High dose of ASEO)",Table 2 and Table 4,Exact high-dose group used,yes
+Rajpoot_Sharma_2025,reported_group_label_reference,"Group VI (Lead Nitrate + Vehicle control (Olive oil))",Table 2,Nominal vehicle reference only; causal matching not established,yes
+Rajpoot_Sharma_2025,lead_route_frequency,not reported,Section 2.6,Neither route nor frequency located,no
+Rajpoot_Sharma_2025,aseo_route_frequency,not reported,Section 2.6,Neither route nor frequency located,no
+Rajpoot_Sharma_2025,vehicle_identity_volume,"olive oil; dose listed N/A; volume not reported",Table 2,Only a nominal vehicle reference; causal comparability is undocumented,no
+Rajpoot_Sharma_2025,treatment_schedule,"Methods: 30-day study with adjuncts initiated day 12; abstract: after 12 days of lead exposure treatments administered for 30 days",Abstract and Section 2.6,Internally ambiguous total duration; candidate schedule not locked,no
+Rajpoot_Sharma_2025,tissue_preparation,"heart; 10% w/v homogenate in 0.1 M sodium phosphate buffer pH 7.4; 10000 rpm 15-20 min at 4 C",Section 2.7,Supernatant concentration without tissue/protein normalization,yes
+Rajpoot_Sharma_2025,assay,"Elabscience E-BC-K035-M; absorbance 550 nm; nitrite standard curve",Section 2.9,NO indirectly quantified by nitrite,yes
+Rajpoot_Sharma_2025,nitrate_reduction_deproteinization,not reported,Section 2.9,Neither step located,no
+Rajpoot_Sharma_2025,endpoint_inconsistency,"LDL prose: silymarin 86.57 and olive oil 85.75; Table 3: 85.43 and 81.62 ug/mL",Results prose and Table 3,Documented but unrelated to Table 4 nitrite values,no
+Sharma_Sharma_2024,reported_group_label_high,"Group II c / LN+HD: Lead Nitrate + High Dose of garlic essential oil",Sections 2.7 and 3.1.7; Figure 5,Exact high-dose group used,yes
+Sharma_Sharma_2024,reported_group_label_reference,"Group II e / LN+O: Lead nitrate + vehicle olive oil",Sections 2.7 and 3.1.7; Figure 5,Nominal vehicle reference only; vehicle dose and volume absent,yes
+Sharma_Sharma_2024,lead_route_frequency,"oral gavage needle; frequency not reported",Sections 2.6-2.7,Route reported but frequency absent,no
+Sharma_Sharma_2024,aseo_route_frequency,"oral gavage needle; frequency not reported",Sections 2.6-2.7,Route reported but frequency absent,no
+Sharma_Sharma_2024,vehicle_identity_volume,"ASEO prepared in olive oil; vehicle dose and volume not reported",Section 2.7,Only a nominal vehicle reference; causal comparability is undocumented,no
+Sharma_Sharma_2024,treatment_schedule,"lead nitrate 50 mg/kg for 30 days; adjuncts day 12 to end",Section 2.7,Internally interpretable as a 30-day study,no
+Sharma_Sharma_2024,tissue_preparation,"kidney; 10% w/v homogenate in 0.1 M sodium phosphate buffer pH 7.4; 10000 rpm 10-15 min at 4 C",Sections 2.8-2.9,Supernatant concentration without tissue/protein normalization,yes
+Sharma_Sharma_2024,assay,"Elabscience E-BC-K035-M colorimetric kit; detailed readout chemistry not stated",Sections 2.10 and 3.1.7,Report labels output NO; operational nitrite basis not documented in article,yes
+Sharma_Sharma_2024,nitrate_reduction_deproteinization,not reported,Section 2.10,Neither step located,no
+Sharma_Sharma_2024,numeric_uncertainty,"mean plus/minus SEM shown graphically; no printed numeric uncertainty",Figure 5,No SEM digitized and no renal interval reconstructed,yes
